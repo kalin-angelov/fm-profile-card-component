@@ -24,7 +24,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://fm-profile-card-component-red.vercel.app/))
+- Live Site URL: [Add live site URL here](https://fm-profile-card-component-red.vercel.app/)
 
 ## My process
 
