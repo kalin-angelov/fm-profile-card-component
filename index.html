@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Frontend Mentor | Profile card component</title>
+</head>
+<body class="min-h-dvh flex flex-col items-center justify-center main-bg">
+    <main>
+        <div class="shadow-md w-[325px] lg:w-[352px] h-[375px] rounded-xl bg-white relative">
+            <div class="bg-[url('/images/bg-pattern-card.svg')] w-full h-[142px] rounded-t-xl"></div>
+            <section class="flex flex-col justify-center items-center w-full absolute top-[88px]">
+                <figure class="bg-white rounded-full w-[105px] h-[105px] flex items-center justify-center">
+                    <img class="rounded-full" src="./images/image-victor.jpg" alt="profile img">
+                </figure>
+                <h1 class="kumbh-sans font-bold text-[18px] py-[2px]">Victor Crest <span class="font-normal text-[#8b8c91]">26</span></h1>
+                <span class="text-[#8b8c91] text-[14px]">London</span>
+            </section>
+            <ul class="flex flex-row justify-center gap-[50px] border-t border-[#8b8c9129] w-full py-[27px] absolute top-[285px]">
+                <li class="ul-li-style">80k <span class="ul-li-span-style">Followers</span></li>
+                <li class="ul-li-style">803k <span class="ul-li-span-style">Likes</span></li>
+                <li class="ul-li-style">1.4k <span class="ul-li-span-style">Photos</span></li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
